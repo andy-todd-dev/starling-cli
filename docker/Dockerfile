@@ -6,4 +6,4 @@ RUN npm install starling-cli@$STARLING_VERSION -g
 
 VOLUME [ "/root/.config/configstore" ]
 
-ENTRYPOINT [ "/usr/local/share/npm-global/bin/starling" ]
+ENTRYPOINT [ "/usr/local/bin/starling" ]
